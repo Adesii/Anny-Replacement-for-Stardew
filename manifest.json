@@ -4,7 +4,7 @@
     "Version": "1.0.1",
     "Description": "Replaces Leah with Anny the Vtuber.",
     "UniqueID": "Adesi.Anny",
-    "UpdateKeys": [],
+    "UpdateKeys": ["Github:Adesii/Anny-Replacement-for-Stardew"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
