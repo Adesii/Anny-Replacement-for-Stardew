@@ -1,0 +1,78 @@
+{
+	"Format": "2.1.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/anny_default_potrait.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah_Winter",
+			"FromFile": "assets/anny_winter_potrait.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Portraits/Leah_Beach",
+			"FromFile": "assets/anny_beach_potrait.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Leah",
+			"FromFile": "assets/anny_default.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Leah_Beach",
+			"FromFile": "assets/anny_beach.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Leah_Winter",
+			"FromFile": "assets/anny_winter.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/NPCNames",
+			"Fields": {
+				"Leah": {
+					0: "Anny"
+				}
+			},
+			"Priority": "Late"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": {
+				"Leah": {
+					"BirthSeason": "Summer",
+					"BirthDay": 4,
+					"LoveInterest": "Sebastian"
+				},
+				"Jas": {
+					"BirthSeason": "Summer",
+					"BirthDay": 5
+				}
+			}
+		},
+		//{
+		//	"Action": "EditData",
+		//	"Target": "Data/NPCGiftTastes",
+		//	"TextOperations": [
+		//		{
+		//			"Operation": "Append",
+		//			"Target": ["Entries", "Leah"],
+		//			"value": "635",
+		//			"Delimiter": " "
+		//		},
+		//		{
+		//			"Operation": "RemoveDelimited",
+		//			"Target": ["Entries", "Leah"],
+		//			"Search": "196 200 348 606 651 426 430",
+		//			"Delimiter": " "
+		//		}
+		//	]
+		//}
+	]
+}

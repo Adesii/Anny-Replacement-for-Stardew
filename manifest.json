@@ -1,0 +1,11 @@
+{
+    "Name": "Anny Replacement",
+    "Author": "Adesi",
+    "Version": "1.0.1",
+    "Description": "Replaces Leah with Anny the Vtuber.",
+    "UniqueID": "Adesi.Anny",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
